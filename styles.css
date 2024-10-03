@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.div-1 {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    background-color:rgb(245, 240, 230);
+    h2{
+        scroll-margin-top: 167px;
+        font-size: 28px;
+        margin-top: 0;
+    }
+    p{
+        font-size: 28px;
+    }
+}
+
+.div-2 {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    background-image: url("bg-orbs-1.jpg");
+    h2{
+        scroll-margin-top: 166px;
+        color: white;
+        font-size: 28px;
+        margin-top: 0;
+    }
+    p {
+        color: white;
+        font-size: 28px;
+    }
+}
+
+.div-3 {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    background-color:rgb(245, 240, 230);
+    h2{
+        scroll-margin-top: 166px;
+        font-size: 28px;
+        margin-top: 0;
+    }
+    p{
+        font-size: 28px;
+    }
+}
+
+.grid-container{
+    display: grid;
+    column-gap: 25px;
+}
+
+.grid-item-1{
+    grid-column: 1;
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+    p{
+        margin: 10px;
+    }
+}
+
+.grid-item-2{
+    grid-column: 2;
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+    p{
+        margin: 10px;
+    }
+}
+
+.grid-item-3{
+    grid-column: 3;
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+    p{
+        margin: 10px;
+    }
+}
+
+.grid-item-4{
+    grid-column: 4;
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+    p{
+        margin: 10px;
+    }
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+#navbar a:hover {
+    background-color: #182b49;
+    color: white;
+}
+
+#navbar a.active {
+    background-color: #182b49;
+    color: white;
+}
+
+#navbar img {
+    max-width: 400px;
+    display: block;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.content {
+    padding: 16px;
+}
+
